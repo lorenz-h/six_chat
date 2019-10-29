@@ -1,0 +1,19 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "a chat interface for six",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Lorenz Hetzel",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.0.0"
+  },
+  "dependencies": {
+    "material-icons": "^0.3.1",
+    "mqtt": "^3.0.0",
+    "roboto-fontface": "^0.10.0"
+  }
+}

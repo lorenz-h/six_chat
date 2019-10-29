@@ -1,0 +1,80 @@
+body{
+    background-color:#e3e3e3;
+    margin: none;
+    font-family: "Roboto", sans-serif
+}
+
+#bottom_bar{
+    padding-left:5vw;
+    padding-right:5vw;
+    height:3em;
+    width:90vw;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    background-color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+#user_chat_box{
+    height:2.5em;
+    width: 70vw;
+    flex-shrink: 8; /* default 1 */
+    padding-top:0px;
+    border: 0px!important;
+    padding-left:5vw;
+    padding-right:5vw;
+    background-color:#e3e3e3;
+    border-radius: 1.25em;
+    margin-right:1em;
+}
+#user_chat_box:focus{
+    outline: none;
+}
+
+#icon_wrap{
+    height:2em;
+    flex-shrink: 0;
+    flex-basis:content;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.chat_bubble {
+    width:50vw;
+    margin-bottom:1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+}
+
+.user_bubble{
+    background-color:#2e71db;
+    float:right;
+    color:white;
+}
+
+.bot_bubble{
+    background-color:#c4c4c4;
+    float:left;
+    color:black;
+}
+
+#chat_display{
+    padding-bottom:3em;
+    overflow:hidden;
+    padding-top:1em;
+}
+
+.bubble_timestamp{
+    font-size:0.5em;
+}
+
